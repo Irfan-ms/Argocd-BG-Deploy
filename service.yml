@@ -6,7 +6,7 @@ spec:
   type: NodePort
   selector:
     app: swiggy
-    version: blue   # <--- change to green when ready
+    version: green   # <--- change to green when ready
   ports:
     - port: 3000
       targetPort: 3000
